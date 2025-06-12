@@ -2,23 +2,30 @@
 GET http://localhost:8080
 
 ###
-GET http://localhost:8080/api/v1/software-engineers/3
+GET http://localhost:8080/api/v1/software-engineers
 
 ###
+GET http://localhost:8080/api/v1/software-engineers/2
+
+###
+
 POST http://localhost:8080/api/v1/software-engineers
 Content-Type: application/json
 
 {
-  "name": "jamila",
-  "techstack": "java ,spring "
+  "name": "Alex",
+  "techStack": "sql, databases, java, spring"
 }
+
 ###
 DELETE http://localhost:8080/api/v1/software-engineers/1
+
 ###
-PUT http://localhost:8080/api/v1/software-engineers/2
+
+PUT http://localhost:8080/api/v1/software-engineers/1
 Content-Type: application/json
 
 {
-  "name": "John Doe",
-  "techStack": "Java, Spring Boot, PostgreSQL"
+  "name": "Alex U",
+  "techStack": "kbd, databases, q"
 }
